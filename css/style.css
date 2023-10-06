@@ -22,7 +22,7 @@
     padding: 15px;
     padding-left: 150px;
     padding-right: 170px;
-    background-color: rgb(138, 224, 255);
+    background-color: #461c7d;
     box-shadow: 0px 4px 4px -4px rgba(0, 0, 0, 0.297);
 }
 
@@ -33,9 +33,10 @@
 
 .auto-type {
     font-weight: bold;
-    font-family: 'Mogra';
+    color: rgb(255, 255, 255);
+    font-family: 'Fira Sans';
     font-size: 25px;
-    letter-spacing: 1px;
+    letter-spacing: 2.5px;
     margin-left: 3px;
     padding-top: 3px;
 }
@@ -48,7 +49,7 @@
 }
 
 #navshow-pc {
-    display: none;
+    display: flex;
     list-style: none;
     align-items: center;
     margin: 0px;
@@ -60,7 +61,7 @@
 }
 
 .nav-it-a>span:hover {
-    color: blue;
+    color: rgb(81, 255, 0);
 }
 
 .nav-logo {
@@ -70,6 +71,7 @@
 .nav-it-a {
     display: flex;
     align-items: center;
+    color: white;
 }
 
 .nav-it-a>span {
@@ -77,15 +79,12 @@
     align-items: center;
     font-weight: bold;
     font-family: 'Fira Sans';
+    color: white;
 }
 
 .toggle-hod {
     display: flex;
     align-items: center;
-}
-
-.togglesize {
-    width: 2.2em;
 }
 
 /* end of navigation bar css */
@@ -95,7 +94,7 @@
 .landing-pg {
     position: relative;
     z-index: -1;
-    background: linear-gradient(180deg, rgba(0, 117, 255, 0.9613095238095238) 1%, rgba(54, 149, 252, 1) 18%, rgba(164, 207, 245, 1) 40%, rgba(183, 236, 241, 1) 65%, rgba(255, 255, 240, 1) 82%);
+    background: linear-gradient(180deg, #b048b5 1%, #c45aec 18%, #ea96ff 40%, #b7ecf1 65%, #fffff0 82%);
 }
 
 
@@ -105,7 +104,8 @@
     background-repeat: repeat-x;
     background-size: 550px;
     background-position: 0px 125px;
-    height: 500px;
+    margin-top: 0px;
+    height: 522px;
     position: relative;
     box-shadow: inset 0px -14px 11px -1px rgba(255, 255, 255, 1);
 }
@@ -135,9 +135,9 @@
 }
 
 .ld-txt {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Fira Sans', cursive;
     font-size: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     word-spacing: 4px;
 
 }
@@ -147,8 +147,8 @@
     color: rgb(0, 0, 0);
     text-decoration: underline;
     z-index: 1;
-    font-family: 'Pacifico';
-    letter-spacing: 1px;
+    font-family: 'Fira Sans';
+    letter-spacing: 0.5px;
     word-spacing: 3px;
     margin-left: 4px;
 }
@@ -208,7 +208,8 @@
 }
 
 .ab-div4 {
-    color: rgb(104, 104, 242);
+    color: #461c7d;
+    color: rgb(70, 28, 125);
     font-size: 15px;
     font-weight: normal;
     background-color: transparent;
@@ -216,13 +217,13 @@
     padding-right: 14px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: 1px solid rgb(104, 104, 242);
+    border: 1px solid rgb(70, 28, 125);
     border-radius: 20px;
 }
 
 .ab-div4:hover {
     color: white;
-    background-color: rgb(104, 104, 242);
+    background-color: rgb(70, 28, 125);
 }
 
 /* end of about section */
@@ -266,7 +267,7 @@
 }
 
 .card-h {
-    color: rgb(104, 104, 242);
+    color: rgb(70, 28, 125);
     font-weight: bold;
     margin-top: 30px;
 }
@@ -479,7 +480,7 @@
 /* start of get in touch css */
 
 .touch-holder {
-    background-color: rgb(104, 104, 242);
+    background-color: rgb(70, 28, 125);
     width: 100%;
     margin-top: 50px;
 }
@@ -524,7 +525,7 @@
 /* start of social section */
 
 .social-holder {
-    background-color: rgb(104, 104, 242);
+    background-color: rgb(70, 28, 125);
     padding: 0px;
     display: flex;
     justify-content: center;
@@ -544,7 +545,7 @@
     font-size: large;
 }
 .social-holder2 {
-    background-color: rgb(104, 104, 242);
+    background-color: rgb(70, 28, 125);
     padding: 0px;
     display: none;
     justify-content: center;

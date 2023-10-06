@@ -9,7 +9,7 @@
 }
 
 .mid-h {
-    color: rgb(104, 104, 242);
+    color: rgb(70, 27, 126);
     font-size: 35px;
     font-weight: bolder;
     font-family: 'Fira Sans';
@@ -21,7 +21,7 @@
 /* download button css */
 
 .button-d {
-    color: rgb(104, 104, 242);
+    color: rgb(70, 27, 126);
     font-size: 15px;
     font-weight: normal;
     background-color: transparent;
@@ -29,13 +29,13 @@
     padding-right: 14px;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: 1px solid rgb(104, 104, 242);
+    border: 1px solid rgb(70, 27, 126);
     border-radius: 20px;
 }
 
 .button-d:hover {
     color: white;
-    background-color: rgb(104, 104, 242);
+    background-color: rgb(70, 27, 126);
 }
 
 /* end of download button */
@@ -66,11 +66,11 @@
 }
 
 .tb-head-back {
-    background: linear-gradient(317deg, #87cfe9 30%, rgb(231, 231, 255) 50%, #87cfe9 70%);
+    background: linear-gradient(317deg, #9172ec 30%, rgb(231, 231, 255) 50%, #9172ec 70%);
     background-size: 600% 600%;
     border: 2px solid rgba(161, 161, 161, 0.813);
     box-shadow: inset 0px 0px 2px 0px rgba(45, 45, 45, 0.262);
-    animation: AnimationName 17s ease-in-out infinite;
+    animation: AnimationName 12s ease-in-out infinite;
 }
 
 
@@ -104,8 +104,8 @@
     border: 1px solid #969696;
     padding: 7px;
     text-align: center;
-    background: #e09eff;
-    color: #313030;
+    background: #9d00ff;
+    color: #ffffff;
 }
 
 .demTable td {
@@ -113,19 +113,19 @@
     text-align: center;
     padding: 7px;
     background: #ffffff;
-    color: #313030;
+    color: #333333;
 }
 
 .sup {
-    color: #313030;
+    color: #ffffff;
     font-size: 10px;
 }
 
 .td-link>i {
-    color: #313030;
+    color: #0b0b0b;
     font-weight: bolder;
 }
 
 .td-link>i:hover {
-    color: rgb(104, 104, 242);
+    color: rgb(70, 27, 126);
 }

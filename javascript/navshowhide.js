@@ -3,14 +3,14 @@
 
 var div = document.getElementById('navshow-pc');
 var div2 = document.getElementById('navshow-mb');
-var display = 0;
+var display = 1;
 
 function hideshow() 
 {
     if(display == 1)
     {
-        div.style.display = 'none';
-        div2.style.display = 'none';
+        div.style.display = 'flex';
+        div2.style.display = 'flex';
         display = 0;  
     }
     else
